@@ -3,6 +3,7 @@ const minutos= document.getElementById('minutos');
 const segundos= document.getElementById('segundos');
 
 const Relogio = setInterval(function time() {
+//const relogio = setInterval(function time()
     let dateToday = new Date();
     let hr = dateToday.getHours ();
     let min = dateToday.getMinutes ();
